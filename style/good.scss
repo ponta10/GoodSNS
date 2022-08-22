@@ -34,7 +34,8 @@ header{
 
 .post{
      padding: 20px 40px;
-     border: solid 2px #ccc;
+     border: solid 1px #ccc;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.305);
      margin: $section_margin 0;
      &-header{
           display: flex;

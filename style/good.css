@@ -27,7 +27,8 @@ header h2 {
 
 .post {
   padding: 20px 40px;
-  border: solid 2px #ccc;
+  border: solid 1px #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.305);
   margin: 50px 0;
 }
 .post-header {
