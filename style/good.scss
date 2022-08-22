@@ -1,0 +1,90 @@
+//headerの高さ
+$header_height : 100px;
+//投稿ごとのmargin
+$section_margin : 50px;
+//投稿内のmargin
+$base_margin : 16px;
+
+header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: $header_height;
+     background-color: rgb(64, 206, 211);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     & .header_logo{
+          position: absolute;
+          top: 50%;
+          left: 5%;
+          transform: translateY(-50%);
+          width: 10%;
+     }
+     & h2{
+          font-size: 28px;
+     }
+}
+
+.main{
+     width: 60%;
+     margin: $header_height+$section_margin  auto;
+}
+
+.post{
+     padding: 20px 40px;
+     border: solid 2px #ccc;
+     margin: $section_margin 0;
+     &-header{
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          &_logo{
+               width: 80px;
+               height: 80px;
+               border-radius: 50%;
+               object-fit: cover;
+          }
+          &_title{
+               font-size: 24px;
+               & span {
+                    font-size: 16px;
+                    color: #ccc;
+                    margin-left: 5px;
+               }
+          }
+     }
+     &-body{
+          margin: $base_margin 0;
+     }
+     &-items{
+          margin: $base_margin 0;
+          display: flex;
+          justify-content: space-between;
+          font-size: 20px;
+          margin-bottom: 0;
+          & i{
+               color: #ccc;
+               cursor: pointer;
+          }
+     }
+}
+
+.create{
+     position: fixed;
+     bottom: 5%;
+     right: 5%;
+     width: 80px;
+     height: 80px;
+     background-color: rgb(64, 206, 211);
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     & i{
+          color: #fff;
+          font-size: 24px;
+     }
+}
