@@ -11,7 +11,7 @@ header{
      left: 0;
      width: 100vw;
      height: $header_height;
-     background-color: rgb(64, 206, 211);
+     background-color: rgb(166, 232, 234);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -88,4 +88,14 @@ header{
           color: #fff;
           font-size: 24px;
      }
+}
+
+.modal{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 50vw;
+     height: 50vh;
+     background-color: #fff;
 }

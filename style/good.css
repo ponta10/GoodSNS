@@ -4,7 +4,7 @@ header {
   left: 0;
   width: 100vw;
   height: 100px;
-  background-color: rgb(64, 206, 211);
+  background-color: rgb(166, 232, 234);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,4 +82,14 @@ header h2 {
 .create i {
   color: #fff;
   font-size: 24px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 50vh;
+  background-color: #fff;
 }/*# sourceMappingURL=good.css.map */
